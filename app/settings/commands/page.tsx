@@ -87,7 +87,7 @@ export default function CommandsPage() {
   const customCommands = commands.filter((cmd) => !defaultCommandTriggers.includes(cmd.trigger))
 
   return (
-    <div className="container max-w-4xl py-10">
+    <div className="container max-w-4xl py-10 mx-auto">
       <div className="flex items-center mb-6">
         <Button variant="ghost" onClick={() => router.push("/settings")} className="flex items-center gap-2">
           <ArrowLeft className="h-4 w-4" />
